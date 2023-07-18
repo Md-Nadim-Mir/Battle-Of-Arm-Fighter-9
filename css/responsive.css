@@ -14,21 +14,25 @@ body {
     nav {
 
         flex-direction: column;
-    
+
         background: #FFF;
         box-shadow: none;
     }
 
-    .nav-item ul  {
+    .nav-item ul {
 
         flex-direction: column;
         gap: 1em;
         height: auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+
     }
-    
+
+    .nav-item a {
+
+        margin: 0;
+        text-align: center;
+    }
+
 }
 
 /* nav section responsive for mobile and tablet end */
@@ -44,11 +48,82 @@ body {
 
 
     .banner {
-        
+
         flex-direction: column;
-    
+
     }
-    
+
+    .banner-content {
+
+        padding: 2em;
+        border-radius: .5em;
+    }
+
+    .banner-subtitle {
+
+        font-size: 2em;
+    }
+
+    .banner-title {
+
+        font-size: 4em;
+    }
+
+
+
+    .banner-content p {
+
+        font-size: .7em;
+        /* padding-left: 4em; */
+
+    }
+
+    .banner-button {
+
+        padding: .4em .7em;
+        margin-right: .5em;
+        font-size: .8em;
+
+    }
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:1024px) {
+
+
+    .banner-content {
+
+        margin-left: 3em;
+        padding: 3em;
+        border-radius: .5em;
+    }
+
+    .banner-subtitle {
+
+        font-size: 1.2em;
+    }
+
+    .banner-title {
+
+        font-size: 3em;
+    }
+
+    .banner-content p {
+
+        font-size: .8em;
+        /* padding-left: 4em; */
+
+    }
+
+    .banner-button {
+
+        padding: .4em .7em;
+        margin-right: .5em;
+        font-size: .8em;
+
+    }
+
 }
 
 
