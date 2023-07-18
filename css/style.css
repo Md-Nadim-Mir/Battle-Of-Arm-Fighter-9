@@ -1,0 +1,80 @@
+/* Gooogle Font use */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav section css design start */
+
+nav {
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo {
+
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .8em;
+}
+
+.nav-logo-title {
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-item ul  {
+    display: flex;
+    height: auto;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item a {
+
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin: 0em .5em;
+}
+
+.follow {
+
+    padding: .6em 1.5em;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+
+.follow i {
+    align-items: center;
+    font-size: 1.3em;
+    margin-left: .5em;
+}
+
+
+/* nav section css design end */

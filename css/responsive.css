@@ -1,0 +1,32 @@
+/* Gooogle Font use */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* nav section responsive for mobile */
+
+@media screen and (max-width:576px) {
+
+    nav {
+
+        flex-direction: column;
+    
+        background: #FFF;
+        box-shadow: none;
+    }
+
+    .nav-item ul  {
+
+        flex-direction: column;
+        gap: 1em;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
