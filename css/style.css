@@ -99,7 +99,7 @@ nav {
 
 /* banner-content background image add */
 
-.banner-content{
+.banner-content {
 
     background-image: url(../images/Group14.png);
     background-position: left;
@@ -176,7 +176,7 @@ nav {
 }
 
 .banner-img {
-   
+
     text-align: center;
 }
 
@@ -185,7 +185,101 @@ nav {
     height: 70%;
 }
 
-
-
-
 /* banner section css design end */
+
+
+
+/* gamer section start  */
+
+.gamer {
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2.5em 16em 1em 10em;
+}
+
+
+
+.gamer-img img {
+    width: 100%;
+}
+
+.gamer-cotent {
+
+    text-align: right;
+}
+
+.gamer-cotent-title {
+
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-cotent-info {
+
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: .8em;
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+
+.gamer-cotent-button {
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 3em;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+    padding: .7em 2em;
+    margin-right: .5em;
+
+
+}
+
+.gamer-cotent-title2 {
+
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+.gamer-cotent-title3 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+/* gamer section end  */
