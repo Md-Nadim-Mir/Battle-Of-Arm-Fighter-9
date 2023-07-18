@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* nav section responsive for mobile */
+/* nav section responsive for mobile and tablet start */
 
 @media screen and (max-width:576px) {
 
@@ -30,3 +30,26 @@ body {
     }
     
 }
+
+/* nav section responsive for mobile and tablet end */
+
+
+
+
+
+/* banner section responsive for mobile and tabler start */
+
+
+@media screen and (max-width:576px) {
+
+
+    .banner {
+        
+        flex-direction: column;
+    
+    }
+    
+}
+
+
+/* banner section responsive for mobile and tabler end */
