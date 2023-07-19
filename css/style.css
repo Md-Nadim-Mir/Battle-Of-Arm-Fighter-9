@@ -654,7 +654,7 @@ nav {
 .aa {
     text-align: center;
     border-radius: 3em;
-    background: #c408b8;
+    background: #83157b;
 
     padding: 3em 2em;
 }
@@ -670,15 +670,15 @@ nav {
     padding: .5em;
     border-radius: 3em;
     border: none;
-    
+
 }
 
-.special{
+.special {
 
     border: 2px solid blue;
 }
 
-.game-gallery-content:hover{
+.game-gallery-content:hover {
 
     border: 2px solid blue;
     cursor: pointer;
@@ -699,3 +699,89 @@ nav {
 
 
 /* more online game section design end */
+
+
+/* footer section start */
+
+footer {
+
+    text-align: center;
+    background-color: #0B0223;
+    padding: 3em 0em;
+}
+
+.footer-logo-title {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+}
+
+.footer-link {
+
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+    align-items: center;
+
+
+    padding: 1em 20em;
+}
+
+.footer-link a {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-logo .logo {
+
+    padding: .5em;
+    font-size: 2em;
+}
+
+
+.footer-link1 {
+
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;
+
+
+    padding: 1em 25em;
+}
+
+.footer-link1 a {
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.copywright {
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* footer section end */
