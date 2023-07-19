@@ -224,7 +224,7 @@ body {
     
     .gamer-cotent-button {
     
-        font-size: .8em;
+        font-size: .9em;
         padding: .4em .7em;
         margin-right: .5em;  
     }
@@ -250,3 +250,97 @@ body {
 
 
 /* gamer section responsive mobile and tablet end */
+
+
+/* card section responsive mobile and tablet start */
+
+@media screen and (max-width:576px) {
+
+    .card{
+
+        margin-top: 2em;
+
+    }
+
+    .card-title {
+      
+        font-size: 1.7em;
+        padding: .4em;
+    }
+
+    .card-subtitle {
+        
+        font-size:.7em;
+    }
+
+    .card-details {
+
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .card-info {
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    
+    
+    }
+
+    .card-info-img {
+
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:1024px) {
+
+
+    .card{
+
+        margin-top: 2em;
+
+    }
+
+    .card-title {
+      
+        font-size: 2.5em;
+        padding: .4em;
+    }
+
+
+    .card-details {
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 1em 3em 2em 3em;
+    }
+
+
+    .card-info {
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    
+    
+    }
+
+    .card-info-img {
+
+        width: 90%;
+    }
+    
+    
+    
+}
+
+
+/* card section responsive mobile and tablet end */
+
+
+

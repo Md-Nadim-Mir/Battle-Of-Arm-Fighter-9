@@ -238,7 +238,7 @@ nav {
     font-size: .8em;
     font-style: normal;
     font-weight: 400;
-    
+
 
 }
 
@@ -270,7 +270,7 @@ nav {
     font-size: 1.2em;
     font-style: normal;
     font-weight: 500;
-   
+
 }
 
 .gamer-cotent-title3 {
@@ -279,7 +279,129 @@ nav {
     font-size: 1.4em;
     font-style: normal;
     font-weight: 700;
-    
+
 }
 
 /* gamer section end  */
+
+
+/* card section css design start */
+
+.card{
+
+    margin-top: 4em;
+
+}
+
+.card-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-subtitle {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+}
+
+
+.card-details {
+
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 2em 12em;
+}
+
+.card-info {
+
+    width: 80%;
+    height: 90%;
+    text-align: center;
+
+
+}
+
+.card-info-img {
+
+    width: 80%;
+}
+
+
+.img1{
+
+    filter: blur(.1em); 
+    
+    
+}
+
+
+.play {
+
+
+    position: relative;
+    top: -3.4em;
+    left: -.1em;
+    font-size: 3em;
+    color: aqua;
+}
+
+.text {
+
+    position: relative;
+    top: -12.5em;
+    left: -.5em;
+
+
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+  
+
+    color: rgb(244, 4, 4);
+
+}
+
+.t2{
+
+    margin-top: -5.8em;
+}
+
+.card-info-title {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+
+/* card section css design end */
