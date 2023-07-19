@@ -170,7 +170,7 @@ nav {
 
 .a {
 
-    border-radius: 48px;
+    border-radius: 3em;
     background: #4EC5F7;
 
 }
@@ -540,18 +540,18 @@ nav {
 
 .carrer-title {
 
-    color: #FFF;
+    color: #f4eeee;
     font-family: Work Sans;
     font-size: 3em;
     font-style: normal;
     font-weight: 700;
-   
-    
+
+
 }
 
 .carrer-info {
 
-    color: #FFF;
+    color: #191919;
     font-family: Work Sans;
     font-size: 1em;
     font-style: normal;
@@ -568,7 +568,7 @@ nav {
 }
 
 .carrer-name {
-    color: #FFF;
+    color: #0b0b0b;
     font-family: Work Sans;
     font-size: .9em;
     font-style: normal;
@@ -579,7 +579,7 @@ nav {
 
 .location {
 
-    color: #FFF;
+    color: #141313;
     text-align: right;
     font-family: Work Sans;
     font-size: .9em;
@@ -608,7 +608,7 @@ nav {
 }
 
 
-.carrer-img img{
+.carrer-img img {
 
     width: 650px;
     object-fit: cover;
@@ -617,3 +617,85 @@ nav {
 
 
 /* carrer section css style end */
+
+
+
+/* more online game section design start */
+
+.more-games {
+
+    text-align: center;
+    padding: 2em 2em 5em 2em;
+}
+
+.more-games-title {
+
+    font-family: Work Sans;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+
+.game-gallery {
+
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+
+    margin-top: 3em;
+}
+
+.aa {
+    text-align: center;
+    border-radius: 3em;
+    background: #c408b8;
+
+    padding: 3em 2em;
+}
+
+.game-gallery-content {
+
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+
+    padding: .5em;
+    border-radius: 3em;
+    border: none;
+    
+}
+
+.special{
+
+    border: 2px solid blue;
+}
+
+.game-gallery-content:hover{
+
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+
+.game-gallery-content-title {
+
+    color: #080808;
+    font-family: Work Sans;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+/* more online game section design end */
