@@ -602,7 +602,7 @@ body {
 
     .more-games {
 
-        padding: .7em;
+        padding: .3em;
     }
     
     .more-games-title {
@@ -615,29 +615,40 @@ body {
     .game-gallery {
     
       
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: .2em;
         
     }
 
-    .aa {
-        padding: 1em .9em;
-    }
+  
+
+
 
     .game-gallery-content {
 
         
         gap: .3em;
         padding: .2em;
-        border-radius: 1em;
-       
         
+    }
+
+    .aa {
+        text-align: center;
+        border-radius: 0.5em;
+        background: #83157b;
+    
+        padding: 1em .5em;
+    }
+
+    .game-gallery-content img{
+
+        width: 20%;
     }
 
     .game-gallery-content-title {
 
        
-        font-size: .5em;
+        font-size: .2em;
         
     }
 
@@ -654,6 +665,12 @@ body {
         grid-template-columns: repeat(3, 1fr);
         gap: .2em;
         
+    }
+
+    .aa {
+     
+        border-radius: 1em;
+       
     }
     
 }
