@@ -682,6 +682,13 @@ nav {
 
     border: 2px solid blue;
     cursor: pointer;
+    background-color: rgb(245, 4, 148);
+    
+}
+
+.game-gallery-content-title:hover{
+    
+    color:white;
 }
 
 
