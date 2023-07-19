@@ -455,7 +455,7 @@ body {
 
        
         text-align: center; 
-        font-size: .8em;
+        font-size: .7em;
         
     }
 
@@ -507,6 +507,92 @@ body {
 }
 
 /* games1 responsive mobile and tablet end */
+
+
+
+
+
+/* carrer section responsive mobile and tablet start */
+
+
+@media screen and (max-width:576px) {
+
+    .carrer {
+    
+        flex-direction: column;
+        padding: .5em;
+        
+    }
+
+    .carrer-title {
+        font-size: 2em;
+    }
+
+    .carrer-info br{
+        display: none;
+    }
+
+    .carrer-info {
+
+        font-size: .7em;
+    }
+
+
+    .carrer-name {
+        
+        font-size: .7em;
+    }
+    
+    .location {
+
+        font-size: .7em;
+      
+    }
+
+
+    .carrer-button {
+
+        font-size: .8em;
+        border-radius: 2em;
+        padding: .7em 1em;
+        
+    
+    }
+
+    .carrer-img{
+
+        margin-top: 1em;
+    }
+
+    .carrer-img img{
+
+        width: 350px;
+        object-fit: cover;
+    }
+    
+}
+
+
+@media screen and (min-width:576px) and (max-width:1024px) {
+
+    .carrer {
+
+       flex-direction: column;
+        padding: .5em;
+    }
+    
+
+    .carrer-img{
+
+        margin-top: 1em;
+    }
+    
+   
+    
+}
+
+
+/* carrer section responsive mobile and tablet end*/
 
 
 
