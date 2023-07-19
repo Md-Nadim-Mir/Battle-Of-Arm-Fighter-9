@@ -348,10 +348,10 @@ nav {
 }
 
 
-.img1 {
+.img1:hover {
 
-    filter: blur(.1em);
-
+    filter: blur(.4em);
+    cursor: pointer;
 
 }
 
