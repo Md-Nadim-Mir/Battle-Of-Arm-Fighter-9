@@ -138,55 +138,55 @@ body {
     .gamer {
 
         flex-direction: column-reverse;
-    
+
         padding: 1em;
     }
 
     .gamer-cotent {
 
-        text-align:center;
+        text-align: center;
     }
 
     .gamer-cotent-title {
 
         text-align: center;
         font-size: 2.5em;
-       
+
     }
 
-    .gamer-cotent-info br{
+    .gamer-cotent-info br {
         display: none;
     }
-    
+
     .gamer-cotent-info {
-      
+
         text-align: center;
         font-size: .9em;
-    
+
     }
-    
+
     .gamer-cotent-button {
-    
+
         font-size: .8em;
         padding: .4em .7em;
-        margin-right: .5em;  
+        margin-right: .5em;
     }
-    
+
     .gamer-cotent-title2 {
-    
-       
+
+
         text-align: center;
         font-size: 1.2em;
-        
-       
+
+
     }
-    
+
     .gamer-cotent-title3 {
-        
+
         font-size: 1.4em;
-        
+
     }
-    
+
 }
 
 
@@ -202,50 +202,50 @@ body {
 
     .gamer-cotent {
 
-        text-align:right;
+        text-align: right;
     }
 
     .gamer-cotent-title {
 
-        text-align:right;
+        text-align: right;
         font-size: 1.8em;
-       
+
     }
 
 
 
- 
+
     .gamer-cotent-info {
-      
-        text-align:right;
+
+        text-align: right;
         font-size: .7em;
-    
+
     }
-    
+
     .gamer-cotent-button {
-    
+
         font-size: .9em;
         padding: .4em .7em;
-        margin-right: .5em;  
+        margin-right: .5em;
     }
-    
+
     .gamer-cotent-title2 {
-    
-       
-        text-align:right;
+
+
+        text-align: right;
         font-size: .9em;
-        
-       
+
+
     }
 
     .gamer-cotent-title3 {
-        
+
         font-size: 1.2em;
-        
+
     }
-    
-    
-    
+
+
+
 }
 
 
@@ -256,21 +256,21 @@ body {
 
 @media screen and (max-width:576px) {
 
-    .card{
+    .card {
 
         margin-top: 2em;
 
     }
 
     .card-title {
-      
+
         font-size: 1.7em;
         padding: .4em;
     }
 
     .card-subtitle {
-        
-        font-size:.7em;
+
+        font-size: .7em;
     }
 
     .card-details {
@@ -284,15 +284,15 @@ body {
         width: 100%;
         height: 100%;
         text-align: center;
-    
-    
+
+
     }
 
     .card-info-img {
 
         width: 100%;
     }
-    
+
 }
 
 
@@ -300,14 +300,14 @@ body {
 @media screen and (min-width:576px) and (max-width:1024px) {
 
 
-    .card{
+    .card {
 
         margin-top: 2em;
 
     }
 
     .card-title {
-      
+
         font-size: 2.5em;
         padding: .4em;
     }
@@ -316,7 +316,7 @@ body {
     .card-details {
 
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 1em 3em 2em 3em;
     }
 
@@ -326,17 +326,17 @@ body {
         width: 100%;
         height: 100%;
         text-align: center;
-    
-    
+
+
     }
 
     .card-info-img {
 
         width: 90%;
     }
-    
-    
-    
+
+
+
 }
 
 
@@ -367,18 +367,18 @@ body {
 
         text-align: center;
         font-size: 2.5em;
-    
+
     }
 
     .games1-info {
 
-       
-        text-align: center; 
+
+        text-align: center;
         font-size: .8em;
-        
+
     }
 
-    .games-img{
+    .games-img {
 
         padding: 1em;
     }
@@ -389,14 +389,14 @@ body {
         height: 130px;
     }
 
-    .big{
+    .big {
 
         width: 100%;
     }
 
 
 
-  
+
 
 }
 
@@ -409,18 +409,18 @@ body {
     }
 
 
-     .small {
+    .small {
         margin-top: -13em;
         margin-left: 0em;
         height: 130px;
     }
 
-    .big{
+    .big {
 
         width: 100%;
     }
-    
-    
+
+
 }
 
 /* games1 responsive mobile and tablet end */
@@ -448,37 +448,37 @@ body {
 
         text-align: center;
         font-size: 2em;
-    
+
     }
 
     .games2-info {
 
-       
-        text-align: center; 
+
+        text-align: center;
         font-size: .7em;
-        
+
     }
 
-    .games-img{
+    .games-img {
 
         padding: .5em;
     }
 
     .small1 {
-       
+
         height: 130px;
         margin-left: 14em;
         margin-top: -15em;
     }
 
-    .big1{
+    .big1 {
 
-        width:21em;
+        width: 21em;
     }
 
 
 
-  
+
 
 }
 
@@ -492,18 +492,18 @@ body {
     }
 
 
-     .small1 {
+    .small1 {
         margin-top: -13em;
         margin-left: 0em;
         height: 130px;
     }
 
-    .big1{
+    .big1 {
 
         width: 16em;
     }
-    
-    
+
+
 }
 
 /* games1 responsive mobile and tablet end */
@@ -518,17 +518,17 @@ body {
 @media screen and (max-width:576px) {
 
     .carrer {
-    
+
         flex-direction: column;
         padding: .5em;
-        
+
     }
 
     .carrer-title {
         font-size: 2em;
     }
 
-    .carrer-info br{
+    .carrer-info br {
         display: none;
     }
 
@@ -539,14 +539,14 @@ body {
 
 
     .carrer-name {
-        
+
         font-size: .7em;
     }
-    
+
     .location {
 
         font-size: .7em;
-      
+
     }
 
 
@@ -555,21 +555,21 @@ body {
         font-size: .8em;
         border-radius: 2em;
         padding: .7em 1em;
-        
-    
+
+
     }
 
-    .carrer-img{
+    .carrer-img {
 
         margin-top: 1em;
     }
 
-    .carrer-img img{
+    .carrer-img img {
 
         width: 350px;
         object-fit: cover;
     }
-    
+
 }
 
 
@@ -577,18 +577,18 @@ body {
 
     .carrer {
 
-       flex-direction: column;
+        flex-direction: column;
         padding: .5em;
     }
-    
 
-    .carrer-img{
+
+    .carrer-img {
 
         margin-top: 1em;
     }
-    
-   
-    
+
+
+
 }
 
 
@@ -604,75 +604,102 @@ body {
 
         padding: .3em;
     }
-    
+
     .more-games-title {
-    
+
         font-size: 1.9em;
         line-height: 0px;
-    
-    }
-    
-    .game-gallery {
-    
-      
-        grid-template-columns: repeat(3, 1fr);
-        gap: .2em;
-        
+
     }
 
-  
+    .game-gallery {
+
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5em;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 3em;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+
 
 
 
     .game-gallery-content {
 
-        
+
         gap: .3em;
         padding: .2em;
-        
+
     }
 
     .aa {
         text-align: center;
         border-radius: 0.5em;
         background: #83157b;
-    
+
         padding: 1em .5em;
     }
 
-    .game-gallery-content img{
+    .game-gallery-content img {
 
         width: 30%;
     }
 
     .game-gallery-content-title {
 
-       
+
         font-size: .5em;
-        
+
     }
 
 
-    
+
 }
 
 
 @media screen and (min-width:576px) and (max-width:1024px) {
 
     .game-gallery {
-    
-      
+
+
+        
+
+        display: grid;
+        height: auto;
         grid-template-columns: repeat(3, 1fr);
         gap: .2em;
-        
+        justify-content: space-around;
+        align-items: center;
+
+        margin-top: 3em;
+
     }
 
     .aa {
-     
+
         border-radius: 1em;
-       
+
     }
-    
+
+    .game-gallery-content img {
+
+        width: 30%;
+    }
+
+    .game-gallery-content-title {
+
+
+        font-size: .7em;
+
+    }
+
 }
 
 /* more games section responsive mobile and tablet end */
@@ -681,7 +708,7 @@ body {
 
 /* footer section responsive mobile and tablet start  */
 
-@media screen and (max-width:576px)  {
+@media screen and (max-width:576px) {
 
     .footer-logo-title {
         gap: .3em;
@@ -696,9 +723,9 @@ body {
 
     .footer-link a {
 
-       
+
         font-size: .8em;
-      
+
     }
 
     .footer-logo .logo {
@@ -709,14 +736,14 @@ body {
 
     .footer-link1 {
 
-        
+
         grid-template-columns: repeat(2, 1fr);
         padding: 1em 2em;
         gap: 1em;
     }
 
     .footer-link1 a {
-   
+
         font-size: .7em;
     }
 
@@ -724,7 +751,7 @@ body {
 
         font-size: .8em;
     }
-    
+
 }
 
 
@@ -739,32 +766,29 @@ body {
 
     .footer-link a {
 
-       
+
         font-size: 1em;
-      
+
     }
 
-   
+
 
     .footer-link1 {
 
-        
+
         grid-template-columns: repeat(2, 1fr);
         padding: 1em 12em;
         gap: 1em;
     }
 
     .footer-link1 a {
-   
+
         font-size: 1em;
     }
 
-    
-    
+
+
 }
 
 
 /* footer section responsive mobile and tablet end  */
-
-
-
